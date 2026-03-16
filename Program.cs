@@ -25,6 +25,11 @@
                     }
                 }
 
+        //Atividade 2: Criar uma lista de linguagens de programação, com as linguagens C#, Java e JavaScript.
+                string[] linguagens = { "C#", "Java", "JavaScript" };
+                
+        //Atividade 3: Exibir o valor "C#" no console, utilizando a lista criada no exercício anterior.
+                Console.WriteLine(linguagens[0]);
 
         }
     }
