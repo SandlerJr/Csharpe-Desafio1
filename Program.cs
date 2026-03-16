@@ -42,5 +42,7 @@
                 {
                     Console.WriteLine("Número inválido.");
                 }
+                
+                Console.WriteLine("Programa finalizado.");
         }
     }
