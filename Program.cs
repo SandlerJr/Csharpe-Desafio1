@@ -31,5 +31,16 @@
         //Atividade 3: Exibir o valor "C#" no console, utilizando a lista criada no exercício anterior.
                 Console.WriteLine(linguagens[0]);
 
+        //Atividade 4: Criar um programa que, dado a entrada de dados de um número n inteiro, a partir do teclado, exibir a n-ésima posição de uma lista.
+                Console.WriteLine("Digite um número inteiro para exibir a n-ésima posição da lista de linguagens:");
+                int n = int.TryParse(Console.ReadLine(), out int resultN) ? resultN : -1;
+                if (n >= 0 && n < linguagens.Length)
+                {
+                    Console.WriteLine($"A {n}-ésima posição da lista é: {linguagens[n]}");
+                }
+                else
+                {
+                    Console.WriteLine("Número inválido.");
+                }
         }
     }
